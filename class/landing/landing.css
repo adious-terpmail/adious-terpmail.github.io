@@ -1,0 +1,26 @@
+/*
+
+font-family: 'Montserrat', san-serif; 
+font-family: 'Playfair Display', serif;
+
+*/
+
+body{
+    font-family: 'Montserrat' , sans-serif;
+    margin: 3em 0;
+}
+
+h1,
+h2{
+    font-family: 'Playfair Display',serif;
+}
+header img{
+    width:15%;
+}
+.top{
+    margin: 3em 0; 
+}
+
+.cast{
+    font-size:.7
+}
