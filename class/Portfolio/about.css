@@ -1,52 +1,64 @@
-
-style {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #990011FF;
+body { 
+	font-family: Georgia; 
+	color: #000000; 
+	background-color: #990003; 
+	
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  text-align: center;
-  background: #FCF6F5FF;
-}
+	padding: 30px;
+	background: rgb(252, 252, 252);
+	
+  }
 
 .header h1 {
-  font-size: 50px;
+  font-size:70px;
+  text-transform: uppercase;
 }
+
+h2 {
+  font-size: 50px;
+  text-transform: uppercase
+
+}
+
+
+
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+	overflow: hidden;
+	background-color: #333;
+	font-size: 20px;
+  }
 
-/* Style the topnav links */
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
 
-/* Change color on hover */
 .topnav a:hover {
-  background-color: #FCF6F5FF;
-  color: black;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+  }  
+
+a:hover {
+	text-decoration: underline;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
-  float: right;
-  width: 75%;
+.centercolumn { 
+
+  margin: auto;
+	width: 60%;
+	padding: 10px;
+  height: 50%;
 }
 
 
@@ -58,6 +70,8 @@ body {
   background-color: #FCF6F5FF;
   padding: 20px;
   margin-top: 20px;
+  border-color:black;
+  border-width:10px
 }
 
 /* Clear floats after the columns */
@@ -67,13 +81,12 @@ body {
   clear: both;
 }
 /* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #FCF6F5FF;
-    margin-top: 20px;
-    
-  }
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	box-shadow: 0 -5px 5px rgba(0,0,0,0.1);
+	text-align: center;
+}
 
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
