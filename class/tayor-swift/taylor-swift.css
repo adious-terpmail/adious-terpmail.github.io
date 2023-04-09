@@ -1,0 +1,95 @@
+body { 
+	font-family: Georgia; 
+	background-color: #000000; 
+	
+}
+
+   img {
+     max-width: 400px;
+     max-height: 400px;
+   }
+   
+   .text h1 {
+     color: #fffefe;
+     padding-right: 30px;
+     padding-left: 30px;
+    font-family: cabin condensed ;
+    font-size: 3em;
+    position: relative;
+   }
+
+   .text p {
+    color: #fffefe;
+    font-family: cabin condensed;
+    font-size: .65em;
+    letter-spacing: 1.5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+   }
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.centercolumn {   
+	margin: auto;
+	width: 60%;
+    
+  }
+
+  
+
+  #paragraph-bottom {
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+	
+  
+  .card {
+	background-color: #0E171A ;
+    min-height: 60vh;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 0px;
+
+
+  }
+  
+  .card2 {
+    background-color: #fffefe;
+  }
+  ul {
+    
+    color:#000000;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+ 
+  
+  .bottom-paragraph {
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+    
+  }
+  
+  .centercolumn2 {
+    margin: auto;
+	width: 60%
+  }
+ 
+  @media screen and (max-width: 400px) {
+
+    .img {
+        float: none;
+        width: 100%;
+      }
+    }
