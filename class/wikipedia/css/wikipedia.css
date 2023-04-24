@@ -1,3 +1,9 @@
+.page-container {
+    min-width: 960px; /* set a minimum width for the page container */
+    margin: 0 auto; /* center the container on the page */
+    padding: 20px; /* add some padding to make the content easier to read */
+  }
+  
 h1{
     color:red
 }

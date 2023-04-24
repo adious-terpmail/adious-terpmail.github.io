@@ -1,95 +1,188 @@
-body { 
-	font-family: Georgia; 
-	background-color: #000000; 
-	
+body {
+  font-family: Georgia;
+  background-color: #000000;
 }
 
-   img {
-     max-width: 400px;
-     max-height: 400px;
-   }
-   
-   .text h1 {
-     color: #fffefe;
-     padding-right: 30px;
-     padding-left: 30px;
-    font-family: cabin condensed ;
-    font-size: 3em;
-    position: relative;
-   }
+.centercolumn {
+  margin: 0 auto;
+  width: 60%;
+  min-width: 960px;
+  max-width: 1200px;
+}
 
-   .text p {
-    color: #fffefe;
-    font-family: cabin condensed;
-    font-size: .65em;
-    letter-spacing: 1.5px;
-    padding-right: 30px;
-    padding-left: 30px;
-    position: relative;
-   }
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.centercolumn {   
-	margin: auto;
-	width: 60%;
-    
-  }
+.paragraph-bottom {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 
+}
+.card {
+  background-color: #0E171A;
+  min-height: 60vh;
+  display: grid;
+  column-gap: 5px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-left: 0px;
+  min-width: 960px;
   
+  max-width: 1200px;
+}
 
-  #paragraph-bottom {
-    color:#000000;
-    font-family: 'Times New Roman', Times, serif;
+.card a {
+  color: white;
+}
+.card img {
 
-  }
+  margin-right: 20px;
+  height: 300px;
+  width: 600px;
+  position: relative;
 
-	
-  
-  .card {
-	background-color: #0E171A ;
-    min-height: 60vh;
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    padding-bottom: 70px;
-    padding-top: 70px;
-    padding-left: 0px;
+}
 
+.card p {
+  margin-left: 630px;
+  margin-top: -290px;
+  position: relative;
+  color: white;
+}
 
-  }
-  
-  .card2 {
-    background-color: #fffefe;
-  }
-  ul {
-    
-    color:#000000;
-    font-family: Georgia;
-    padding-top: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
+.card b {
+  margin-left: 630px;
+  margin-top: -130px;
+  color: white;
+}
 
+.card h1 {
+  margin-left: 630px;
+  position: relative;
+  margin-top: -260px;
+  max-width: 330px;
+  font-size: 50px;
+  color: white;
+}
+
+.card2 {
+  background-color: #fffefe;
+  position: relative;
+}
+
+ul {
+
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+  min-width: 960px;
+  max-width: 1200px;
  
-  
-  .bottom-paragraph {
-    text-align: left;
-    padding-top: 20px;
-    padding-right: 250px;
-    padding-left: 250px;
-    
-  }
-  
-  .centercolumn2 {
-    margin: auto;
-	width: 60%
-  }
- 
-  @media screen and (max-width: 400px) {
+}
 
-    .img {
-        float: none;
-        width: 100%;
-      }
-    }
+.bottom-paragraph {
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 250px;
+  padding-left: 250px;
+  min-width: 960px;
+  max-width: 1200px;
+
+}
+
+.centercolumn2 {
+  margin: auto;
+  width: 60%;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.centercolumn2 p {
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.centercolumn2 h4 {
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(152, 9, 9);
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.centercolumn2 h5 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.timeline p,
+b {
+  padding-bottom: 20px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.timeline b {
+  padding-left: 310px;
+  padding-right: 310px;
+
+}
+
+.timeline h2 {
+  padding-top: 40px;
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.datamine h2 {
+  padding-top: 40px;
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.searchpopularity h2 {
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.searchpopularity h3 {
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.footer p {
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 1px;
+  padding-bottom: 50px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.toptracks h3 {
+  padding-top: 40px;
+  padding-left: 310px;
+  padding-right: 310px;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
